@@ -1,0 +1,18 @@
+/* Style pour étape 3 de html 'etape3.html' */
+body {
+    background-color: #ddeeaa;
+    margin: 10px 0;
+    font: 0.8em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#conteneur {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #ab4;
+}
+
+#header {
+    line-height: 250px;
+}
+

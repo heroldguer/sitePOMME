@@ -1,0 +1,14 @@
+/* Style site pomme étape 2 */
+body {
+    background-color: greenyellow;
+    margin: 10px 0;
+}
+
+#conteneur {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#header {
+    line-height: 250px;
+}
