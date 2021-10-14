@@ -10,12 +10,33 @@ body {
     margin: 0 auto;
     background-color: #fff;
     border: 2px solid #ab4;
+    
 }
 
+/* style header */
+
 #header {
-    line-height: 258px;
+    height: 258px;
     background: url(img/apple.jpg) no-repeat left top ;
-    /* la propriete background en raccourci */
+    margin: 0px;
+    /* la propriete background en raccourci = the property background in shorcut */
+}
+
+#header a {
+    display: block;
+    width: 400px;
+    height: 70px;
+    background: no-repeat url(../sitePOMME/img/title.gif);
+    position: relative;
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px;
+} /* Indentation négative pour le masquer des visiteurs mais qu'il soit toujours lue pour les moteurs de recherche */
+
+/* Style of navagation */
+
+#menu {
+    height: 35px;
 }
 
 ul {
@@ -25,7 +46,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
-    background: url(../sitePOMME/img/bg_menu.gif) -25px top;
+    background: url(../sitePOMME/img/bg_menu.gif) 0 -25px;
     align-items: center;
     text-align: center;
 }
@@ -45,12 +66,24 @@ ul {
 li a {
     text-decoration: none;
     color: honeydew;
+
+}
+
+#menu li a:hover  {
+    background: repeat-x url(../sitePOMME/img/bg_menu.gif) 0px 0px ;
+
+}
+
+#contenu {
+    background: no-repeat url(../sitePOMME/img/bg_page.gif) 15px 5px;
 }
 
 h2 {
     border-bottom: 2px solid #9b2;
     color: greenyellow;
 }
+
+
 
 #contenu h2 {
     padding-left: 25px;
